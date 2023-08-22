@@ -34,7 +34,8 @@ const modules = [
   ],
   imports: [...modules],
   exports: [
-    ...modules
+    ...modules,
+    ShellComponent
   ]
 })
 export class SharedModule { }
