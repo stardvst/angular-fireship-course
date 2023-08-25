@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-fireship-course-3acaf": {
+      "hosting": {
+        "angular-fireship-course": [
+          "angular-fireship-course-3acaf"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-fireship-course-3acaf"
+  }
+}
