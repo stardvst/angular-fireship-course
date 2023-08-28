@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { firebaseConfig } from 'src/environments/environment';
+import { getFirestore } from 'firebase/firestore';
 
 @NgModule({
   declarations: [
@@ -29,5 +30,6 @@ export class AppModule {
   constructor() {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+    const db = getFirestore(app);
   }
 }
